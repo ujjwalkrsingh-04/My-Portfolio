@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mom's Magic - Home</title>
+
+  <!-- Bootstrap CSS -->
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" /> -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Local CSS -->
+  <link rel="stylesheet" href="mom's magic.css" />
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+
+  <!-- Header -->
+  <header class="d-flex justify-content-between align-items-center p-3 bg-warning shadow-sm flex-wrap">
+    <div class="logo fs-4 fw-bold">Mom's Magic 🍲</div>
+
+    <nav class="d-flex align-items-center gap-2">
+      <ul class="nav gap-2 mb-0">
+        <li class="nav-item"><a class="nav-link text-white fw-bold" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link text-white fw-bold" href="#">Menu</a></li>
+        <li class="nav-item"><a class="nav-link text-white fw-bold" href="#">Offers</a></li>
+        <li class="nav-item"><a class="nav-link text-white fw-bold" href="#">Order Now</a></li>
+        <li class="nav-item"><a class="nav-link text-white fw-bold" href="#">Contact</a></li>
+      </ul>
+
+      <a href="login.html" class="btn btn-outline-light fw-bold ms-2">Login</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero d-flex align-items-center justify-content-center text-center text-black">
+    <div class="hero-text px-3">
+      <h1 class="fw-bold fst-italic">Delicious Homemade Food</h1>
+      <p class="mb-3">Bringing mom’s kitchen to your doorstep. Fresh. Tasty. Magical.</p>
+      <button class="btn btn-warning text-white" onclick="orderNow()">Order Now</button>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="about text-center p-5 bg-light">
+    <div class="container">
+      <h2>Why Mom's Magic?</h2>
+      <p class="mx-auto" style="max-width: 700px;">We deliver freshly cooked, healthy meals straight from mom's kitchen.
+        No preservatives, no junk — just love!</p>
+    </div>
+  </section>
+
+  <div class="container py-4">
+
+    <!-- Inspiration section -->
+    <h4 class="mb-3">Inspiration for your first order</h4>
+    <div class="logo-slider mt-5">
+      <div class="logo-slide">
+        <img src="image1/cake.1.avif" alt="Cake">
+        <img src="image1/Pizza.1.avif" alt="Pizza">
+        <img src="image1/litti chokha.jpg" alt="Viatris">
+        <img src="image1/La Pino'z Pizza.avif" alt="Viatris">
+        <img src="image1/south india.webp" alt="Viatris">
+        <img src="image1/kalyani-akella-gml9g1kRQcM-unsplash.jpg" alt="Viatris">
+        <img src="image1/Veg Thali.avif" alt="Viatris">
+        <img src="image1/thali.webp" alt="Viatris">
+        <img src="image1/deepal-tamang-5oF7d_hPJG4-unsplash.jpg" alt="Viatris">
+        <img src="image1/mayur-roxan-P1rkChTPQiI-unsplash.jpg" alt="Viatris">
+        <img src="image1/umesh-soni-g1qlhFbWPKg-unsplash.jpg" alt="Viatris">
+        <img src="image1/Aloo paratha.webp" alt="Viatris">
+        <img src="image1/daltadka.jpg" alt="Viatris">
+
+         <img src="image1/cake.1.avif" alt="Cake">
+        <img src="image1/Pizza.1.avif" alt="Pizza">
+        <img src="image1/litti chokha.jpg" alt="Viatris">
+        <img src="image1/La Pino'z Pizza.avif" alt="Viatris">
+        <img src="image1/south india.webp" alt="Viatris">
+        <img src="image1/kalyani-akella-gml9g1kRQcM-unsplash.jpg" alt="Viatris">
+        <img src="image1/Veg Thali.avif" alt="Viatris">
+        <img src="image1/thali.webp" alt="Viatris">
+        <img src="image1/deepal-tamang-5oF7d_hPJG4-unsplash.jpg" alt="Viatris">
+        <img src="image1/mayur-roxan-P1rkChTPQiI-unsplash.jpg" alt="Viatris">
+        <img src="image1/umesh-soni-g1qlhFbWPKg-unsplash.jpg" alt="Viatris">
+        <img src="image1/Aloo paratha.webp" alt="Viatris">
+        <img src="image1/daltadka.jpg" alt="Viatris">
+        
+      </div>
+    </div>
+  </div>
+
+  <!-- Menu / Food cards -->
+  <section class="container my-5">
+    <h2 class="text-center mb-4">Homemade Food</h2>
+    <div class="row g-4">
+
+      <!-- Example card repeated; convert to dynamic rendering in React -->
+      <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+        <div class="card h-100 shadow-sm">
+          <img src="image1/Veg Thali.avif" class="card-img-top img-fluid" alt="Thali" />
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Thali</h5>
+            <p class="card-text mb-2">Fresh home-style.</p>
+            <div class="mt-auto d-flex justify-content-between align-items-center">
+              <small class="text-success fw-bold">Pure Veg Thali</small>
+              <small class="text-secondary">₹100</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+        <div class="card h-100 shadow-sm">
+          <img src="image1/Aloo paratha.webp" class="card-img-top img-fluid" alt="Thali" />
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Aloo paratha</h5>
+            <p class="card-text mb-2">Fresh home-style.</p>
+            <div class="mt-auto d-flex justify-content-between align-items-center">
+              <small class="text-success fw-bold">Pure Veg Thali</small>
+              <small class="text-secondary">₹100</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+        <div class="card h-100 shadow-sm">
+          <img src="image1/Veg thali.webp" class="card-img-top img-fluid" alt="Thali" />
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Thali</h5>
+            <p class="card-text mb-2">Fresh home-style.</p>
+            <div class="mt-auto d-flex justify-content-between align-items-center">
+              <small class="text-success fw-bold">Pure Veg Thali</small>
+              <small class="text-secondary">₹100</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+        <div class="card h-100 shadow-sm">
+          <img src="image1/litti chokha.jpg" class="card-img-top img-fluid h-75" alt="Thali" />
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Litti chokha</h5>
+            <p class="card-text mb-2">Fresh home-style.</p>
+            <div class="mt-auto d-flex justify-content-between align-items-center">
+              <small class="text-success fw-bold">Pure Veg Thali</small>
+              <small class="text-secondary">₹100</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+        <div class="card h-100 shadow-sm">
+          <img src="image1/Thali And More.avif" class="card-img-top img-fluid" alt="Thali" />
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Thali</h5>
+            <p class="card-text mb-2">Fresh home-style.</p>
+            <div class="mt-auto d-flex justify-content-between align-items-center">
+              <small class="text-success fw-bold">Pure Veg Thali</small>
+              <small class="text-secondary">₹100</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+        <div class="card h-100 shadow-sm">
+          <img src="image1/Pizza.avif" class="card-img-top img-fluid h-75" alt="Thali" />
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Pizza</h5>
+            <p class="card-text mb-2">Fresh home-style.</p>
+            <div class="mt-auto d-flex justify-content-between align-items-center">
+              <small class="text-success fw-bold">Pure Veg Thali</small>
+              <small class="text-secondary">₹100</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+        <div class="card h-100 shadow-sm">
+          <img src="image1/La Pino'z Pizza.avif" class="card-img-top img-fluid h-75" alt="Thali" />
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">La Pino'z Pizza</h5>
+            <p class="card-text mb-2">Fresh home-style.</p>
+            <div class="mt-auto d-flex justify-content-between align-items-center">
+              <small class="text-success fw-bold">Pure Veg Thali</small>
+              <small class="text-secondary">₹100</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+        <div class="card h-100 shadow-sm">
+          <img src="image1/cake.1.avif" class="card-img-top img-fluid h-75" alt="Thali" />
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Cake</h5>
+            <p class="card-text mb-2">Fresh home-style.</p>
+            <div class="mt-auto d-flex justify-content-between align-items-center">
+              <small class="text-success fw-bold">Pure Veg Thali</small>
+              <small class="text-secondary">₹100</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+        <div class="card h-100 shadow-sm">
+          <img src="image1/deepal-tamang-5oF7d_hPJG4-unsplash.jpg" class="card-img-top img-fluid" alt="Thali" />
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Dosa</h5>
+            <p class="card-text mb-2">Fresh home-style.</p>
+            <div class="mt-auto d-flex justify-content-between align-items-center">
+              <small class="text-success fw-bold">Pure Veg Thali</small>
+              <small class="text-secondary">₹100</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+        <div class="card h-100 shadow-sm">
+          <img src="image1/thali.webp" class="card-img-top img-fluid" alt="Thali" />
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Thali</h5>
+            <p class="card-text mb-2">Fresh home-style.</p>
+            <div class="mt-auto d-flex justify-content-between align-items-center">
+              <small class="text-success fw-bold">Pure Veg Thali</small>
+              <small class="text-secondary">₹100</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+        <div class="card h-100 shadow-sm">
+          <img src="image1/mayur-roxan-P1rkChTPQiI-unsplash.jpg" class="card-img-top img-fluid" alt="Thali" />
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Idli sambar</h5>
+            <p class="card-text mb-2">Fresh home-style.</p>
+            <div class="mt-auto d-flex justify-content-between align-items-center">
+              <small class="text-success fw-bold">Pure Veg Thali</small>
+              <small class="text-secondary">₹100</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+        <div class="card h-100 shadow-sm">
+          <img src="image1/south india.webp" class="card-img-top img-fluid" alt="Thali" />
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Thali</h5>
+            <p class="card-text mb-2">Fresh home-style.</p>
+            <div class="mt-auto d-flex justify-content-between align-items-center">
+              <small class="text-success fw-bold">Pure Veg Thali</small>
+              <small class="text-secondary">₹100</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Duplicate the above card for items you already have -->
+      <!-- ... add other items ... -->
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-warning text-white text-center py-3 mt-auto">
+    &copy; 2025 Mom's Magic. All Rights Reserved.
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    function orderNow() {
+      alert("Thanks for choosing Mom's Magic! Your delicious food is on the way 🚚🍛");
+    }
+  </script>
+</body>
+
+</html>
