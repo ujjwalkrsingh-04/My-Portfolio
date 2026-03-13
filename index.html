@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">Ujjwal Kumar</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="hero-content" data-aos="fade-up">
+            <h1>Hi, I'm Ujjwal Kumar</h1>
+            <p>Web Developer | Designer | Creative Thinker</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 data-aos="fade-up" class="about-title">About Me</h2>
+
+            <div class="about-content" data-aos="fade-up" data-aos-delay="200">
+
+                <div class="about-text">
+                    <p>
+                        My name is <span class="highlight">Ujjwal Kumar</span>, a final-year B.Tech CSE student and a
+                        passionate web developer.
+                        I specialize in creating responsive and user-friendly websites using HTML, CSS, JavaScript,
+                        Bootstrap, React.js and Tailwind CSS.
+
+                        I enjoy learning new technologies, building real-world projects, and writing clean, efficient
+                        code.
+                        My goal is to become a successful full-stack developer and contribute to the tech industry.
+
+                        Outside coding, I enjoy watching movies to relax and refresh my creativity.
+                    </p>
+                </div>
+
+                <div class="about-img">
+                    <img src="image/ujjwal rajput.jpg" alt="Your Photo">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2 data-aos="fade-up">Skills</h2>
+            <div class="skills-grid" data-aos="fade-up" data-aos-delay="200">
+
+                <div class="col-6 col-md-6 col-lg-4">
+                    <div class="skill">
+                        <i class="fab fa-html5"></i>
+                        <h3>HTML</h3>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-6 col-lg-4">
+                    <div class="skill">
+                        <i class="fab fa-css3-alt"></i>
+                        <h3>CSS</h3>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-6 col-lg-4">
+                    <div class="skill">
+                        <i class="fab fa-js-square"></i>
+                        <h3>JavaScript</h3>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-6 col-lg-4">
+                    <div class="skill">
+                        <i class="fab fa-react"></i>
+                        <h5>React.js</h5>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-6 col-lg-4">
+                    <div class="skill">
+                        <i class="fab fa-bootstrap"></i>
+                        <h5>Bootstrap</h5>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-6 col-lg-4">
+                    <div class="skill">
+                        <i class="fab fa-cuttlefish"></i>
+                        <h5>C++</h5>
+
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2 data-aos="fade-up">Projects</h2>
+            <div class="projects-grid" data-aos="fade-up" data-aos-delay="200">
+
+                <div class="projects-grid">
+
+                    <!-- Calculator Project -->
+
+                    <div class="project">
+                        <img src="image/calculator.png" alt="Calculator Project">
+
+                        <div class="project-overlay">
+                            <h3>Calculator</h3>
+
+                            <p>
+                                A responsive calculator built using HTML, CSS and JavaScript
+                                that performs basic arithmetic operations with a clean UI.
+                            </p>
+
+                            <a href="https://ujjwalkrsingh-04.github.io/calculator/" class="btn">View Live</a>
+                        </div>
+                    </div>
+
+
+                    <!-- GeeksforGeeks Clone -->
+
+                    <div class="project">
+                        <img src="image/gfg-clone.png" alt="GeeksforGeeks Clone">
+
+                        <div class="project-overlay">
+                            <h3>GeeksforGeeks Clone</h3>
+
+                            <p>
+                                A responsive clone of the GeeksforGeeks website built using
+                                HTML, CSS and Bootstrap with modern UI components and navigation.
+                            </p>
+
+                            <a href="https://ujjwalkrsingh-04.github.io/GFG-clone/" class="btn">View Live</a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2 data-aos="fade-up">Contact Me</h2>
+            <form id="contact-form" data-aos="fade-up" data-aos-delay="200">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Ujjwal Kumar. All rights reserved.</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
